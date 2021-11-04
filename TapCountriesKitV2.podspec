@@ -6,11 +6,11 @@ Pod::Spec.new do |tapCountriesKit|
     tapCountriesKit.name = 'TapCountriesKitV2'
     tapCountriesKit.summary = 'Kit with countries loaded from Firebase.'
     tapCountriesKit.requires_arc = true
-    tapCountriesKit.version = '1.1.1'
+    tapCountriesKit.version = '1.0.1'
     tapCountriesKit.license = { :type => 'MIT', :file => 'LICENSE' }
-    tapCountriesKit.author = { 'Dennis Pashkov' => 'd.pashkov@tap.company' }
-    tapCountriesKit.homepage = 'https://github.com/Tap-Payments/TapCountriesKit'
-    tapCountriesKit.source = { :git => 'https://github.com/Tap-Payments/TapCountriesKit.git', :tag => tapCountriesKit.version.to_s }
+    tapCountriesKit.author = { 'Osama Rabie' => 'o.rabie@tap.company' }
+    tapCountriesKit.homepage = 'https://github.com/Tap-Payments/TapCountriesKitV2'
+    tapCountriesKit.source = { :git => 'https://github.com/Tap-Payments/TapCountriesKitV2.git', :tag => tapCountriesKit.version.to_s }
     tapCountriesKit.source_files = 'TapCountriesKit/Source/*.swift'
     
     tapCountriesKit.dependency 'TapDatabaseV2'
